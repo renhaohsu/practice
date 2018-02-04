@@ -1,0 +1,55 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://upload.wikimedia.org/wikipedia/zh/c/cd/Rivendell_1.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 170px;
+  color: #fcb03f;
+}
+
+section {
+  text-align: center;
+  padding: 80px 0px;
+}
+
+.col-rivendell {
+  padding: 90px;
+  height: 350px;
+}
+.col-rivendell .a {
+  background-image: url(https://vignette.wikia.nocookie.net/lotr/images/f/fc/Rivendell2.jpg/revision/latest/scale-to-width-down/350?cb=20110327195746);
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}
+.col-rivendell .b {
+  background-image: url(https://vignette.wikia.nocookie.net/lotr/images/5/53/Rivendell_-_The_Hobbit.PNG/revision/latest/scale-to-width-down/260?cb=20121111111511);
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}
+.col-rivendell .c {
+  background-image: url(https://vignette.wikia.nocookie.net/lotr/images/6/63/Rivendell.jpg/revision/latest/scale-to-width-down/250?cb=20050830085916);
+  height: 100%;
+  background-size: cover;
+  background-position: center right;
+  border-radius: 50%;
+}
+
+section.story {
+  background-color: #eee;
+}
+section.story .col-md-6 {
+  padding: 20px;
+}
+section.story .icon-sea {
+  width: 235px;
+  margin-bottom: 20px;
+}
